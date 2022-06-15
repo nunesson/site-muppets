@@ -1,8 +1,7 @@
-body {
-    background-color: #1A1D29;
+#logo-muppets {
+    width: 400px;
 }
 
-h1 {
-    color: green;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#itens-menu li{
+    list-style: none;
 }
