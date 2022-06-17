@@ -74,6 +74,7 @@ a {
 }
 
 #historia {
+    padding: 30px;
     background-color: #bbe1f1;
 }
 
@@ -92,7 +93,7 @@ a {
     /* border: 2px red solid; */
     width: 60%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 50px;
     position: absolute;
 }
 
