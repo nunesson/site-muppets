@@ -227,3 +227,37 @@ p {
     width: 90%;
     background-color:#FF701C;
 }
+
+.videos-muppets {
+    width: 480px;
+    height: 270px;
+    /* display: inline; */
+}
+
+#lista-videos li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+#videos {
+    padding: 30px;
+    background-color: #adc6e2;
+}
+
+#rodape {
+    padding: 20px;
+    background-color: #72adf0;
+}
+#rodape h4 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#rodape p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
