@@ -1,10 +1,10 @@
 #header {
     overflow: hidden;
-    position:fixed;
+    position: fixed;
     width: 100%;
     top: 0;
-    background-color: aliceblue;
-    
+    background-color: rgb(218, 234, 248);
+    z-index: 1;
 }
 
 h1,
@@ -17,6 +17,7 @@ h2 {
 
 body {
     padding: 20px;
+    background-color: rgb(192, 211, 228);
 }
 
 p {
@@ -51,20 +52,32 @@ p {
 }
 
 #principal {
-    margin-top: 200px;
+    margin-top: 10px;
     padding: 10px;
     /* border: 2px red solid; */
     text-align: left;
     /* width: 100%; */
-    
+
 }
 
 
-a {
+#menu a {
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    color: black;
+}
+
+#menu a:hover {
+    font-weight: bold;
+
+}
+
+#personagens a {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
     color: black;
 }
 
@@ -74,7 +87,7 @@ a {
 }
 
 #historia {
-    
+    margin-top: 100px;
     background-color: #bbe1f1;
 }
 
@@ -104,13 +117,16 @@ a {
 }
 
 
-nav a:hover {
-    font-weight: bold;
 
-}
 
 #menu {
     display: inline;
+}
+
+#personagens {
+    padding: 10px;
+    margin-top: 100px;
+    background-color: #bbe1f1;
 }
 
 #nome-personagens li {
@@ -127,7 +143,7 @@ nav a:hover {
 
 }
 
-#historia-muppets{
+#historia-muppets {
     width: 500px;
 }
 
@@ -146,4 +162,68 @@ nav a:hover {
 
 .foto-personagem:hover {
     width: 170px;
+}
+
+
+
+.foto-info-personagem {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.foto-historia-personagem {
+    display: inline-block;
+}
+
+.texto-info-personagem {
+    
+    display: inline-block;
+    width: 70%;
+}
+
+#lista-historia li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+#section-historia-personagens {
+    margin-top: 100px;
+    
+
+}
+
+.texto-info-personagem {
+    position: relative;
+    float: right;
+}
+
+#historia-kermit {
+    width: 90%;
+    background-color: aquamarine;
+}
+
+#historia-piggy {
+    width: 90%;
+    background-color:#e8b4cf ;
+}
+
+#historia-fozzie {
+    width: 90%;
+    background-color:#FDBB5C;
+}
+
+#historia-gonzo {
+    width: 90%;
+    background-color:#5684B7;
+}
+
+#historia-rowlf {
+    width: 90%;
+    background-color:#922028;
+}
+
+#historia-animal {
+    width: 90%;
+    background-color:#FF701C;
 }
