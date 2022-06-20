@@ -10,21 +10,21 @@
 </head>
 
 <body>
-    <header id="header">
+    <div id="cabecalho">
+        <header id="header">
 
-        <nav id="menu">
-            <ul id="itens-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#titulo-historia">História</a></li>
-                <li><a href="#personagens">Personagens</a></li>
-                <li><a href="#videos">Vídeos</a></li>
-            </ul>
-        </nav>
+            <nav id="menu">
+                <ul id="itens-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#historia">História</a></li>
+                    <li><a href="#personagens">Personagens</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
 
-
-
-
-    </header>
+    <div id="div-principal">
     <main id="principal">
         <img id="logo-muppets" src="imagens/muppets_logo.png">
         <article id="artigos">
@@ -68,7 +68,7 @@
                 <h2>Personagens</h2>
                 <ul id="nome-personagens">
                     <li>
-                        <a href="#nome-kermit">
+                        <a href="#historia-kermit">
                             <div class="fotos-personagens"> <img class="foto-personagem" src="imagens/kermit.png">
                             </div>
                             <div class="nome-personagem">Kermit</div>
@@ -113,7 +113,7 @@
             <section id="section-historia-personagens">
                 <ul id="lista-historia">
                     <li id="historia-kermit">
-                        <h2 id="nome-kermit">Kermit (Ou Caco, o sapo)</h2>
+                        <h2 id="nome-kermit" class="padding-personagem">Kermit (Ou Caco, o sapo)</h2>
                         <div class="foto-historia-personagem">
                             <img class="foto-info-personagem" src="imagens/kermit.png">
                         </div>
@@ -126,7 +126,7 @@
                         </div>
                     </li>
                     <li id="historia-piggy">
-                        <h2 id="nome-piggy">Miss Piggy (Ou Piggy)</h2>
+                        <h2 id="nome-piggy" class="padding-personagem">Miss Piggy (Ou Piggy)</h2>
                         <div class="foto-historia-personagem">
                             <img class="foto-info-personagem" src="imagens/piggy.jpeg">
                         </div>
@@ -138,7 +138,7 @@
                         </div>
                     </li>
                     <li id="historia-fozzie">
-                        <h2 id="nome-fozzie">Fozzie Bear (Ou urso Fozzie)</h2>
+                        <h2 id="nome-fozzie" class="padding-personagem">Fozzie Bear (Ou urso Fozzie)</h2>
                         <div class="foto-historia-personagem">
                             <img class="foto-info-personagem" src="imagens/fozzie.jpeg">
                         </div>
@@ -153,7 +153,7 @@
                         </div>
                     </li>
                     <li id="historia-gonzo">
-                        <h2 id="nome-gonzo">Gonzo (O Grande Gonzo)</h2>
+                        <h2 id="nome-gonzo" class="padding-personagem">Gonzo (O Grande Gonzo)</h2>
                         <div class="foto-historia-personagem">
                             <img class="foto-info-personagem" src="imagens/gonzo.png">
                         </div>
@@ -170,7 +170,7 @@
                     </li>
 
                     <li id="historia-rowlf">
-                        <h2 id="nome-rowlf">Rowlf (Ou Ralf)</h2>
+                        <h2 id="nome-rowlf" class="padding-personagem">Rowlf (Ou Ralf)</h2>
                         <div class="foto-historia-personagem">
                             <img class="foto-info-personagem" src="imagens/Rowlf.png">
                         </div>
@@ -187,7 +187,7 @@
                         </div>
                     </li>
                     <li id="historia-animal">
-                        <h2 id="nome-animal">Animal</h2>
+                        <h2 id="nome-animal" class="padding-personagem">Animal</h2>
                         <div class="foto-historia-personagem">
                             <img class="foto-info-personagem" src="imagens/animal.png">
                         </div>
@@ -251,9 +251,11 @@
             </section>
         </article>
     </main>
+</div>
     <footer id="rodape">
         <h4>Agradecimentos</h4>
-        <p>Agradeço a ajuda das pessoas colegas da Trybe Carolina Lima que me ajudou com o bug do Github, e Arthur Debiasi que me ajudou com questão de alinhamento. <br>
+        <p>Agradeço a ajuda das pessoas colegas da Trybe Carolina Lima que me ajudou com o bug do Github, e Arthur
+            Debiasi que me ajudou com questão de alinhamento. <br>
             Página em homenagem aos personagens da série Os Muppets. Feito apenas com HTML e CSS, ainda não responsiva.
             Página feita durante o recesso da escola Trybe. Será constantemente atualizada.</p>
     </footer>

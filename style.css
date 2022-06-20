@@ -52,7 +52,7 @@ p {
 }
 
 #principal {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding: 10px;
     /* border: 2px red solid; */
     text-align: left;
@@ -87,7 +87,8 @@ p {
 }
 
 #historia {
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    padding-top: 50px;
     background-color: #bbe1f1;
 }
 
@@ -124,8 +125,8 @@ p {
 }
 
 #personagens {
-    padding: 10px;
-    margin-top: 100px;
+    padding-top: 50px;
+    /* margin-top: 100px; */
     background-color: #bbe1f1;
 }
 
@@ -134,6 +135,10 @@ p {
     display: inline-block;
     padding: 20px;
 
+}
+
+.padding-personagem {
+    padding-top: 60px;
 }
 
 #foto-historia li {
@@ -187,11 +192,11 @@ p {
     padding: 20px;
 }
 
-#section-historia-personagens {
+/* #section-historia-personagens {
     margin-top: 100px;
     
 
-}
+} */
 
 .texto-info-personagem {
     position: relative;
@@ -199,31 +204,37 @@ p {
 }
 
 #historia-kermit {
+    
     width: 90%;
     background-color: aquamarine;
 }
 
 #historia-piggy {
+    margin-top: 20px;
     width: 90%;
     background-color:#e8b4cf ;
 }
 
 #historia-fozzie {
+    margin-top: 20px;
     width: 90%;
     background-color:#FDBB5C;
 }
 
 #historia-gonzo {
+    margin-top: 20px;
     width: 90%;
     background-color:#5684B7;
 }
 
 #historia-rowlf {
+    margin-top: 20px;
     width: 90%;
     background-color:#922028;
 }
 
 #historia-animal {
+    margin-top: 20px;
     width: 90%;
     background-color:#FF701C;
 }
@@ -260,4 +271,8 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+}
+
+#div-principal {
+    padding-top: 50px;
 }
